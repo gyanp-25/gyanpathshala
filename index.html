@@ -11,26 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="alternate icon" class="js-site-favicon" type="image/png" href="/logo.png">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
                     <defs>
-                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
-                            <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
-                        </linearGradient>
+                        <clipPath id="circleView">
+                            <circle cx="50" cy="50" r="48" />
+                        </clipPath>
                     </defs>
-                    <circle cx="50" cy="50" r="48" fill="url(#logoGradient)" opacity="0.1"/>
-                    <circle cx="50" cy="50" r="45" fill="none" stroke="url(#logoGradient)" stroke-width="2"/>
-                    <path d="M35 65 Q50 35 65 65" fill="none" stroke="url(#logoGradient)" stroke-width="2.5" stroke-linecap="round"/>
-                    <circle cx="50" cy="50" r="5" fill="url(#logoGradient)"/>
+                    
+                    <image href="logo.png" x="0" y="0" width="100" height="100" clip-path="url(#circleView)" />
+                    
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="#1e3a8a" stroke-width="2"/>
                 </svg>
-                <span> Gyan Pathshala</span>
-            </div>
+                <span>Gyan Pathshala</span>
+            </div>            
             <button class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
@@ -52,7 +52,7 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1 class="hero-title">Unlock Your Academic Potential</h1>
-                <p class="hero-subtitle">Expert Online Tuition for Grades 4-12 | Science • Mathematics • Hindi</p>
+                <p class="hero-subtitle">Expert Online Tuition for Grades 1-12 | Science • Mathematics • Hindi</p>
                 <p class="hero-description">Learn from an experienced educator with personalized guidance tailored to your learning style</p>
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-lg btn-primary">Book Free Trial</a>
