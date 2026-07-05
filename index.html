@@ -1,473 +1,966 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Gyan Pathshala - Expert Online Tutor for Grades 4-12 | Science, Mathematics, Hindi">
-    <meta name="keywords" content="online tutor, science tutor, math tutor, hindi tutor, grades 4-12">
-    <title>Gyan Pathshala - Professional E-Tutor | Online Classes</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="alternate icon" class="js-site-favicon" type="image/png" href="/logo.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gyan Pathshala | Online Tuition for International Students, Grade 4–12 | English, Maths, Science &amp; Hindi</title>
+<meta name="description" content="Gyan Pathshala offers live online tuition for international and NRI students in Grades 4–12: English, Maths, Science and Hindi, plus Hindi as a second language, taught by Priyanka Nakoti. 10+ years experience, 1000+ students taught. Classes start at ₹1000/hour.">
+<meta name="keywords" content="online tutor, hindi tutor for foreigners, hindi as second language, international student tuition, online tuition grade 4-12, NRI online classes, science tutor, maths tutor">
+<link rel="icon" type="image/png" href="logo.png">
+
+<!-- Bootstrap 5 & Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@500;700&display=swap" rel="stylesheet">
+
+<!-- ============ GEO / Generative-Engine Structured Data ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Gyan Pathshala",
+  "alternateName": "Gyan Pathshala Online Tuition",
+  "url": "https://gyanpathshala.com/",
+  "logo": "https://gyanpathshala.com/logo.png",
+  "slogan": "Learn. Lead. Liberate.",
+  "description": "Gyan Pathshala is an online tuition platform for international and NRI students in Grades 4 to 12, offering live classes in English, Maths, Science and Hindi, including Hindi as a second language, taught by Priyanka Nakoti who has over 10 years of teaching experience.",
+  "areaServed": "Worldwide",
+  "priceRange": "₹1000 per hour onwards",
+  "email": "gyanpathshala25@gmail.com",
+  "telephone": "+91-8368386971",
+  "sameAs": ["https://www.facebook.com/people/Gyanpathshala/61574269430908"],
+  "employee": {
+    "@type": "Person",
+    "name": "Priyanka Nakoti",
+    "jobTitle": "Online Tutor & Hindi Language Specialist",
+    "knowsLanguage": ["English", "Hindi"],
+    "worksFor": { "@type": "EducationalOrganization", "name": "Gyan Pathshala" }
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Online Tuition Subjects",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "English, Grades 4-12", "provider": "Gyan Pathshala" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Mathematics, Grades 4-12", "provider": "Gyan Pathshala" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Science, Grades 4-12", "provider": "Gyan Pathshala" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Hindi (First Language), Grades 4-12", "provider": "Gyan Pathshala" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Hindi as a Second / Foreign Language, All Ages", "provider": "Gyan Pathshala" } }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "4"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is Gyan Pathshala?", "acceptedAnswer": { "@type": "Answer", "text": "Gyan Pathshala is an online tuition service led by Priyanka Nakoti, a tutor with over 10 years of experience, teaching international and NRI students in Grades 4 to 12 through live video classes in English, Maths, Science and Hindi, including Hindi as a second language." } },
+    { "@type": "Question", "name": "Which grades and subjects does Gyan Pathshala cover?", "acceptedAnswer": { "@type": "Answer", "text": "Gyan Pathshala covers Grades 4 through 12 in English, Mathematics, Science and Hindi, adapted to the student's home curriculum such as CBSE, ICSE, IGCSE or IB." } },
+    { "@type": "Question", "name": "Can a foreign or non-native student learn Hindi at Gyan Pathshala?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Priyanka Nakoti specializes in teaching Hindi as a second or foreign language, helping international students, heritage learners and adults build speaking, reading and writing skills from scratch." } },
+    { "@type": "Question", "name": "How much does online tuition cost at Gyan Pathshala?", "acceptedAnswer": { "@type": "Answer", "text": "Online tuition at Gyan Pathshala starts at ₹1000 per hour, with a free trial class available. Final pricing depends on the subject, grade level and number of weekly sessions." } },
+    { "@type": "Question", "name": "Does Gyan Pathshala teach students in different time zones?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Gyan Pathshala works with international families across time zones, seven days a week, from morning to evening slots." } },
+    { "@type": "Question", "name": "Who teaches the classes at Gyan Pathshala?", "acceptedAnswer": { "@type": "Answer", "text": "Classes are taught by Priyanka Nakoti, an online educator with over 10 years of experience and more than 1000 students taught, specializing in English, Maths, Science and Hindi as a second language." } },
+    { "@type": "Question", "name": "How do I book a class with Gyan Pathshala?", "acceptedAnswer": { "@type": "Answer", "text": "Families can book a free trial class by messaging Gyan Pathshala on WhatsApp at +91-8368386971, emailing gyanpathshala25@gmail.com, or filling in the contact form on gyanpathshala.com." } },
+    { "@type": "Question", "name": "What platform are the online classes conducted on?", "acceptedAnswer": { "@type": "Answer", "text": "Live classes are conducted over video call with a digital whiteboard and shared study material for an interactive learning experience." } },
+    { "@type": "Question", "name": "How long is each class?", "acceptedAnswer": { "@type": "Answer", "text": "Regular classes run for 60 minutes. Shorter or longer sessions can be arranged for younger students or intensive exam-prep blocks." } },
+    { "@type": "Question", "name": "Can I reschedule or cancel a class?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Classes can be rescheduled with at least 12 hours' notice by messaging on WhatsApp or email, at no extra charge." } },
+    { "@type": "Question", "name": "Do you offer discounts for siblings or multiple subjects?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, families enrolling more than one child, or booking multiple subjects for the same child, can request a custom package rate." } },
+    { "@type": "Question", "name": "Are weekend classes available?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, classes are available seven days a week, including weekends, to suit international school and work schedules." } },
+    { "@type": "Question", "name": "Is there a minimum commitment period?", "acceptedAnswer": { "@type": "Answer", "text": "No. Classes are billed hourly with no long-term lock-in, so families can continue on a week-to-week basis after the free trial." } }
+  ]
+}
+</script>
+<!-- ============ End structured data ============ -->
+
+<style>
+  :root{
+    --ink:#132A3A;
+    --indigo:#1E4E70;
+    --gold:#C79A3C;
+    --gold-light:#E7C875;
+    --sindoor:#A63A2E;
+    --paper:#FBF3E2;
+    --paper-deep:#F3E7CC;
+    --charcoal:#211D17;
+    --line:rgba(19,42,58,0.14);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--charcoal);
+    font-family:'Inter',sans-serif;
+    line-height:1.6;
+  }
+  h1,h2,h3,h4{font-family:'Fraunces',serif;color:var(--ink);font-weight:600;letter-spacing:-0.01em;}
+  .eyebrow{font-family:'Inter',sans-serif;font-weight:700;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--sindoor);display:inline-flex;align-items:center;gap:.5em;margin-bottom:.9em;}
+  .eyebrow::before{content:"";width:22px;height:2px;background:var(--gold);display:inline-block;}
+  .section-pad{padding:88px 0;}
+  .bg-deep{background:var(--paper-deep);}
+  .bg-ink{background:var(--ink);color:var(--paper);}
+  .bg-ink h2, .bg-ink h3{color:#fff;}
+
+  /* Buttons */
+  .btn-brand{background:var(--sindoor);border-color:var(--sindoor);color:#fff;font-weight:600;box-shadow:0 6px 18px rgba(166,58,46,.28);}
+  .btn-brand:hover{background:#8f3125;border-color:#8f3125;color:#fff;box-shadow:0 10px 22px rgba(166,58,46,.35);}
+  .btn-outline-brand{border:1.5px solid var(--ink);color:var(--ink);font-weight:600;background:transparent;}
+  .btn-outline-brand:hover{background:var(--ink);color:var(--paper);}
+  .btn-whatsapp{background:#25D366;color:#fff;font-weight:600;}
+  .btn-whatsapp:hover{background:#1ebe57;color:#fff;}
+
+  /* Navbar */
+  .navbar{background:rgba(251,243,226,.94)!important;backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  .navbar-brand{display:flex;align-items:center;gap:10px;}
+  .navbar-brand img{height:42px;width:auto;}
+  .navbar-brand .bname{font-family:'Fraunces',serif;font-weight:600;font-size:1.1rem;color:var(--ink);line-height:1.1;}
+  .navbar-brand .bname small{display:block;font-family:'Inter',sans-serif;font-weight:500;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--indigo);}
+  .nav-link{font-weight:500;color:var(--ink)!important;}
+  .nav-link:hover{color:var(--sindoor)!important;}
+
+  /* Hero */
+  .hero{position:relative;overflow:hidden;padding:70px 0 50px;}
+  .hero-dev{position:absolute;font-family:'Noto Sans Devanagari',serif;font-weight:700;font-size:22rem;color:var(--ink);opacity:.045;top:-70px;right:-30px;line-height:1;pointer-events:none;user-select:none;}
+  .hero h1{font-size:clamp(2rem,4vw,3.1rem);line-height:1.12;}
+  .hero h1 em{font-style:normal;color:var(--sindoor);}
+  .hero .lead{color:#3b342a;max-width:52ch;}
+  .glow{animation:breathe 3.6s ease-in-out infinite;}
+  @keyframes breathe{0%,100%{opacity:.55;}50%{opacity:1;}}
+  .travel-dot{animation:travel 4.5s linear infinite;}
+  @keyframes travel{0%{offset-distance:0%;}100%{offset-distance:100%;}}
+  @media (prefers-reduced-motion: reduce){.glow,.travel-dot{animation:none;}}
+
+  /* Stat pills */
+  .stat-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:26px 18px;text-align:center;height:100%;}
+  .stat-card .num{font-family:'Fraunces',serif;font-size:2.2rem;font-weight:600;color:var(--sindoor);}
+  .stat-card .lbl{font-size:.82rem;color:#4a4234;font-weight:600;}
+
+  /* Subject cards */
+  .subject-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:32px 26px;height:100%;position:relative;transition:transform .2s ease, box-shadow .2s ease;}
+  .subject-card:hover{transform:translateY(-6px);box-shadow:0 16px 30px rgba(19,42,58,.1);}
+  .subject-card .icon{width:44px;height:44px;color:var(--sindoor);margin-bottom:16px;}
+  .subject-card ul{list-style:none;padding:0;margin:16px 0 0;display:grid;gap:8px;}
+  .subject-card ul li{font-size:.86rem;color:#4a4234;display:flex;align-items:center;gap:8px;}
+  .subject-card ul li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold);flex:none;}
+  .badge-popular{position:absolute;top:-12px;right:24px;background:var(--gold);color:var(--ink);font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:6px 12px;border-radius:20px;box-shadow:0 6px 14px rgba(199,154,60,.35);}
+  .hindi-spotlight{background:linear-gradient(120deg,var(--ink),var(--indigo));color:var(--paper);border-radius:10px;padding:34px 36px;}
+  .hindi-spotlight .mark{font-family:'Noto Sans Devanagari',serif;font-weight:700;font-size:3rem;color:var(--gold-light);}
+  .hindi-spotlight h3{color:#fff;}
+  .hindi-spotlight p{color:rgba(251,243,226,.86);margin:0;}
+
+  /* Teacher */
+  .teacher-photo{position:relative;}
+  .teacher-photo .frame{border-radius:10px;overflow:hidden;box-shadow:0 24px 50px rgba(19,42,58,.18);border:6px solid #fff;}
+  .teacher-photo .frame img{width:100%;height:auto;}
+  .teacher-photo .badge-float{position:absolute;bottom:-16px;left:-16px;background:var(--gold);color:var(--ink);font-family:'Fraunces',serif;font-weight:600;font-size:.88rem;padding:14px 18px;border-radius:8px;box-shadow:0 10px 20px rgba(199,154,60,.4);max-width:220px;line-height:1.3;}
+  .credentials{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:12px;}
+  .credentials li{display:flex;gap:10px;font-size:.95rem;}
+  .credentials li i{color:var(--sindoor);font-size:1.1rem;margin-top:2px;}
+
+  /* Why choose */
+  .feature-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:30px 26px;height:100%;}
+  .feature-card i{font-size:1.8rem;color:var(--sindoor);margin-bottom:14px;display:inline-block;}
+
+  /* Testimonials */
+  .testimonial-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:28px 24px;height:100%;display:flex;flex-direction:column;}
+  .stars{color:var(--gold);letter-spacing:2px;font-size:.9rem;}
+  .verified{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--indigo);background:rgba(30,78,112,.08);padding:3px 9px;border-radius:20px;}
+  .quote{font-size:.92rem;color:#3b342a;font-style:italic;margin:14px 0 18px;flex:1;}
+  .avatar{width:44px;height:44px;border-radius:50%;background:var(--ink);color:var(--gold-light);display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:600;font-size:.9rem;flex:none;}
+
+  /* Process */
+  .step-num{width:52px;height:52px;border-radius:50%;background:var(--ink);color:var(--gold-light);font-family:'Fraunces',serif;font-weight:600;font-size:1.2rem;display:flex;align-items:center;justify-content:center;margin-bottom:18px;}
+
+  /* Pricing */
+  .price-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:38px 30px;height:100%;position:relative;text-align:center;}
+  .price-card.featured{border:2px solid var(--gold);box-shadow:0 20px 40px rgba(199,154,60,.18);}
+  .price-card .amount{font-family:'Fraunces',serif;font-size:2.6rem;font-weight:600;color:var(--sindoor);}
+  .price-card ul{list-style:none;padding:0;margin:22px 0;display:grid;gap:10px;text-align:left;}
+  .price-card ul li{font-size:.9rem;display:flex;gap:8px;align-items:flex-start;}
+  .price-card ul li i{color:var(--indigo);margin-top:3px;}
+
+  /* Accordion (FAQ) */
+  .accordion-item{background:#fff;border:1px solid var(--line)!important;border-radius:8px!important;margin-bottom:14px;overflow:hidden;}
+  .accordion-button{font-family:'Fraunces',serif;font-weight:600;color:var(--ink)!important;background:#fff!important;}
+  .accordion-button:not(.collapsed){box-shadow:none;color:var(--sindoor)!important;}
+  .accordion-button:focus{box-shadow:0 0 0 3px rgba(166,58,46,.2);}
+  .accordion-button::after{filter:invert(24%) sepia(53%) saturate(1600%) hue-rotate(340deg);}
+
+  /* Contact */
+  .contact-info-item{display:flex;gap:14px;align-items:flex-start;margin-bottom:22px;}
+  .contact-info-item i{width:42px;height:42px;border-radius:50%;background:rgba(199,154,60,.16);color:var(--gold);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex:none;}
+  .contact-info-item a{color:var(--paper);text-decoration:none;}
+  .contact-info-item a:hover{text-decoration:underline;}
+  .social-row a{width:40px;height:40px;border-radius:50%;background:rgba(251,243,226,.12);color:var(--paper);display:inline-flex;align-items:center;justify-content:center;margin-right:10px;font-size:1.1rem;transition:background .2s ease;}
+  .social-row a:hover{background:var(--gold);color:var(--ink);}
+  .form-control, .form-select{border:1px solid var(--line);padding:12px 14px;border-radius:6px;}
+  .form-control:focus, .form-select:focus{border-color:var(--sindoor);box-shadow:0 0 0 3px rgba(166,58,46,.15);}
+  .contact-form-card{background:#fff;border-radius:10px;padding:34px;box-shadow:0 20px 50px rgba(0,0,0,.15);color:var(--charcoal);}
+  .contact-form-card label{color:var(--charcoal)!important;}
+  .contact-form-card .form-control,
+  .contact-form-card .form-select{color:var(--charcoal)!important;background-color:#fff;}
+  .contact-form-card .form-control::placeholder{color:#8a8071;}
+
+  footer{background:var(--charcoal);color:rgba(251,243,226,.72);padding:54px 0 24px;font-size:.9rem;}
+  footer h5{color:#fff;font-family:'Inter',sans-serif;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:16px;}
+  footer ul{list-style:none;padding:0;margin:0;display:grid;gap:10px;}
+  footer a{text-decoration:none;color:inherit;opacity:.85;}
+  footer a:hover{opacity:1;text-decoration:underline;}
+  .foot-brand{display:flex;gap:10px;align-items:center;margin-bottom:14px;}
+  .foot-brand img{height:34px;filter:brightness(0) invert(1);opacity:.9;}
+  .foot-brand span{font-family:'Fraunces',serif;color:#fff;font-size:1.05rem;}
+
+  :focus-visible{outline:3px solid var(--sindoor);outline-offset:2px;}
+
+  /* Navbar scroll state */
+  .navbar{transition:box-shadow .3s ease, padding .3s ease;}
+  .navbar.is-scrolled{box-shadow:0 4px 20px rgba(19,42,58,.1);padding-top:.35rem;padding-bottom:.35rem;}
+  .nav-link{position:relative;}
+  .nav-link::after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:2px;background:var(--sindoor);transition:width .25s ease;}
+  .nav-link:hover::after{width:100%;}
+  .nav-link.active{color:var(--sindoor)!important;}
+  .nav-link.active::after{width:100%;}
+
+  /* Reveal on scroll */
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease, transform .7s ease;}
+  .reveal.in-view{opacity:1;transform:translateY(0);}
+  .reveal-stagger.in-view .reveal-child{opacity:1;transform:translateY(0);}
+  .reveal-child{opacity:0;transform:translateY(24px);transition:opacity .6s ease, transform .6s ease;}
+  @media (prefers-reduced-motion: reduce){
+    .reveal, .reveal-child{opacity:1!important;transform:none!important;transition:none!important;}
+  }
+
+  /* Card micro-interactions */
+  .subject-card, .feature-card, .testimonial-card, .price-card, .stat-card{
+    transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+  }
+  .feature-card:hover, .testimonial-card:hover, .stat-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 18px 34px rgba(19,42,58,.12);
+    border-color:rgba(199,154,60,.5);
+  }
+  .price-card:hover{transform:translateY(-8px);box-shadow:0 22px 40px rgba(19,42,58,.14);}
+  .btn{transition:transform .2s ease, box-shadow .2s ease, background .2s ease;}
+  .btn:active{transform:scale(.97);}
+
+  /* Floating action buttons */
+  .fab-stack{position:fixed;right:22px;bottom:22px;z-index:1040;display:flex;flex-direction:column;gap:12px;align-items:center;}
+  .fab{width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.4rem;box-shadow:0 10px 24px rgba(0,0,0,.22);transition:transform .2s ease, box-shadow .2s ease;text-decoration:none;}
+  .fab:hover{transform:translateY(-4px) scale(1.05);}
+  .fab-wa{background:#25D366;color:#fff;animation:pulseWa 2.6s ease-in-out infinite;}
+  @keyframes pulseWa{0%,100%{box-shadow:0 10px 24px rgba(37,211,102,.35);}50%{box-shadow:0 10px 28px rgba(37,211,102,.6);}}
+  .fab-top{background:var(--ink);color:var(--gold-light);opacity:0;pointer-events:none;transform:translateY(10px);}
+  .fab-top.show{opacity:1;pointer-events:auto;transform:translateY(0);}
+  @media (prefers-reduced-motion: reduce){.fab-wa{animation:none;}}
+
+  /* Scroll progress bar */
+  .scroll-progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--sindoor));width:0%;z-index:1050;}
+</style>
 </head>
-<body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
-                    <defs>
-                        <clipPath id="circleView">
-                            <circle cx="50" cy="50" r="48" />
-                        </clipPath>
-                    </defs>
-                    
-                    <image href="logo.png" x="0" y="0" width="100" height="100" clip-path="url(#circleView)" />
-                    
-                    <circle cx="50" cy="50" r="45" fill="none" stroke="#1e3a8a" stroke-width="2"/>
-                </svg>
-                <span>Gyan Pathshala</span>
-            </div>            
-            <button class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#subjects" class="nav-link">Subjects</a></li>
-                <li><a href="#features" class="nav-link">Why Me</a></li>
-                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
-                <li><a href="#contact" class="nav-link btn-primary">Get Started</a></li>
+<body data-bs-spy="scroll" data-bs-target="#navMain" data-bs-offset="120" data-bs-smooth-scroll="true" tabindex="0">
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg sticky-top py-2">
+  <div class="container">
+    <a class="navbar-brand" href="#top">
+      <img src="logo.png" alt="Gyan Pathshala logo">
+      <span class="bname">Gyan Pathshala<small>Online · Tuition · Class</small></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="#subjects">Subjects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#teacher">Teacher</a></li>
+        <li class="nav-item"><a class="nav-link" href="#why">Why Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+          <a href="#contact" class="btn btn-brand btn-sm px-3">Book Free Trial</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-dev" aria-hidden="true">ज्ञ</div>
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 reveal in-view">
+          <p class="eyebrow">Online tuition for international &amp; NRI students</p>
+          <h1 class="mb-3">A live <em>gateway to learning</em> for students from Grade 4 to 12, wherever they live in the world.</h1>
+          <p class="lead">Learn from Priyanka Nakoti — 10+ years of experience, 1000+ students taught — in live, one‑on‑one online classes covering English, Maths, Science and Hindi, including Hindi as a second language for beginners.</p>
+          <div class="d-flex flex-wrap gap-3 mb-4">
+            <a href="#contact" class="btn btn-brand btn-lg">Book a Free Trial Class</a>
+            <a href="#subjects" class="btn btn-outline-brand btn-lg">See Subjects &amp; Grades</a>
+          </div>
+          <div class="d-flex flex-wrap gap-4">
+            <span class="fw-semibold small" style="color:var(--indigo)"><i class="bi bi-mortarboard-fill me-1"></i>Grades 4–12</span>
+            <span class="fw-semibold small" style="color:var(--indigo)"><i class="bi bi-currency-rupee me-1"></i>Starts at ₹1000/hour</span>
+            <span class="fw-semibold small" style="color:var(--indigo)"><i class="bi bi-globe-americas me-1"></i>Any time zone, worldwide</span>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal in-view">
+          <div class="mx-auto" style="max-width:440px;">
+            <svg viewBox="0 0 460 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a gateway leading toward a sunrise, symbolizing a path to knowledge">
+              <circle cx="230" cy="230" r="205" stroke="#1E4E70" stroke-width="6" opacity="0.5"/>
+              <g class="glow"><circle cx="230" cy="205" r="80" fill="url(#sunGrad)"/></g>
+              <g stroke="#C79A3C" stroke-width="7" stroke-linecap="round">
+                <line x1="230" y1="60" x2="230" y2="90"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(24 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(48 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(72 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(96 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(120 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(144 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(168 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(192 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(216 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(240 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(264 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(288 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(312 230 205)"/>
+                <line x1="230" y1="60" x2="230" y2="90" transform="rotate(336 230 205)"/>
+              </g>
+              <path d="M170 230 V330 M290 230 V330" stroke="#132A3A" stroke-width="14" stroke-linecap="round"/>
+              <circle r="6" fill="#A63A2E" class="travel-dot" style="offset-path:path('M195 330 C 195 280, 265 280, 265 235 C 265 200, 210 200, 210 240');"/>
+              <path d="M110 330 Q230 400 350 330 L350 350 Q230 420 110 350 Z" fill="#132A3A"/>
+              <path d="M108 328 Q230 300 232 240" stroke="#132A3A" stroke-width="6" fill="none" stroke-linecap="round"/>
+              <path d="M352 328 Q230 300 228 240" stroke="#132A3A" stroke-width="6" fill="none" stroke-linecap="round"/>
+              <defs>
+                <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#FFF4D6"/>
+                  <stop offset="100%" stop-color="#C79A3C" stop-opacity="0.15"/>
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATS ================= -->
+  <section class="py-4 bg-deep border-top border-bottom" style="border-color:var(--line)!important;">
+    <div class="container">
+      <div class="row g-3 row-cols-2 row-cols-md-4 reveal-stagger">
+        <div class="col reveal-child"><div class="stat-card"><div class="num"><span data-count="1000">0</span>+</div><div class="lbl">Students Taught</div></div></div>
+        <div class="col reveal-child"><div class="stat-card"><div class="num"><span data-count="10">0</span>+</div><div class="lbl">Years Experience</div></div></div>
+        <div class="col reveal-child"><div class="stat-card"><div class="num"><span data-count="95">0</span>%</div><div class="lbl">Success Rate</div></div></div>
+        <div class="col reveal-child"><div class="stat-card"><div class="num">24/7</div><div class="lbl">Support</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TEACHER ================= -->
+  <section class="section-pad" id="teacher">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 reveal">
+          <div class="teacher-photo mx-auto" style="max-width:360px;">
+            <div class="frame"><img src="priyanka.jpg" alt="Priyanka Nakoti, online tutor at Gyan Pathshala" class="img-fluid"></div>
+            <div class="badge-float">Hindi‑as‑a‑second‑language specialist</div>
+          </div>
+        </div>
+        <div class="col-lg-7 reveal">
+          <p class="eyebrow">Meet your tutor</p>
+          <h2>Priyanka Nakoti</h2>
+          <p class="fw-semibold" style="color:var(--indigo)">Experienced Online Educator &amp; Subject Matter Expert</p>
+          <p>With over 10 years of teaching experience, Priyanka has helped 1000+ students achieve their academic goals across English, Maths, Science and Hindi. Her classes combine structured curriculum work with patient, engaging teaching that makes complex concepts simple — built for students learning from a different country and time zone, and for those learning Hindi as a second language from scratch.</p>
+          <ul class="credentials">
+            <li><i class="bi bi-check-circle-fill"></i>Teaches Grades 4 to 12 across English, Maths, Science and Hindi</li>
+            <li><i class="bi bi-check-circle-fill"></i>Specializes in Hindi for non-native and heritage learners</li>
+            <li><i class="bi bi-check-circle-fill"></i>Experienced with international and NRI students online</li>
+            <li><i class="bi bi-check-circle-fill"></i>Lessons adapted to CBSE, ICSE, IGCSE and IB syllabi</li>
+            <li><i class="bi bi-check-circle-fill"></i>Regular progress reports shared with parents</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SUBJECTS ================= -->
+  <section class="section-pad bg-deep" id="subjects">
+    <div class="container">
+      <div class="mx-auto text-center mb-5" style="max-width:640px;">
+        <p class="eyebrow justify-content-center">Subjects I teach</p>
+        <h2>Master English, Science, Mathematics &amp; Hindi</h2>
+        <p>Every class is built around the student's own school syllabus, so international families can keep pace with — or get ahead of — the curriculum back home.</p>
+      </div>
+
+      <div class="row g-4 mb-4 reveal-stagger">
+        <div class="col-md-6 col-lg-3 reveal-child">
+          <div class="subject-card">
+            <i class="bi bi-book-half icon"></i>
+            <h3 class="h5">English</h3>
+            <p class="small mb-0">Grammar, comprehension, creative &amp; academic writing — building fluency and confidence.</p>
+            <ul>
+              <li>Grammar Mastery</li>
+              <li>Reading Comprehension</li>
+              <li>Creative Writing</li>
+              <li>Spoken Fluency</li>
             </ul>
+          </div>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">Unlock Your Academic Potential</h1>
-                <p class="hero-subtitle">Expert Online Tuition for Grades 1-12 | Science • Mathematics • Hindi</p>
-                <p class="hero-description">Learn from an experienced educator with personalized guidance tailored to your learning style</p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-lg btn-primary">Book Free Trial</a>
-                    <a href="#subjects" class="btn btn-lg btn-secondary">Explore Subjects</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="floating-card card-1">
-                    <i class="fas fa-book"></i>
-                    <span>Personalized Learning</span>
-                </div>
-                <div class="floating-card card-2">
-                    <i class="fas fa-award"></i>
-                    <span>Expert Guidance</span>
-                </div>
-                <div class="floating-card card-3">
-                    <i class="fas fa-chart-line"></i>
-                    <span>100% Results</span>
-                </div>
-            </div>
+        <div class="col-md-6 col-lg-3 reveal-child">
+          <div class="subject-card">
+            <span class="badge-popular">Most Popular</span>
+            <i class="bi bi-atom icon"></i>
+            <h3 class="h5">Science</h3>
+            <p class="small mb-0">Physics, Chemistry, Biology — understanding through experiments and real-world applications.</p>
+            <ul>
+              <li>Conceptual Clarity</li>
+              <li>Lab Practicals</li>
+              <li>Board Preparation</li>
+              <li>Competitive Exams</li>
+            </ul>
+          </div>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>Meet Your Tutor</h2>
-                <p>Dedicated to Excellence in Education</p>
-            </div>
-            <div class="about-grid">
-                <div class="about-image">
-                    <div class="image-placeholder">
-                        <i class="fas fa-user-circle"></i>
-                    </div>
-                </div>
-                <div class="about-content">
-                    <h3>Priyanka Nakoti</h3>
-                    <p class="about-intro">Experienced Online Educator & Subject Matter Expert</p>
-                    <p>With over 10 years of teaching experience, I've helped hundreds of students achieve their academic goals. My passion for education drives me to create engaging, interactive learning experiences that make complex concepts simple and enjoyable.</p>
-                    
-                    <div class="stats-grid">
-                        <div class="stat">
-                            <h4>1000+</h4>
-                            <p>Students Taught</p>
-                        </div>
-                        <div class="stat">
-                            <h4>10+</h4>
-                            <p>Years Experience</p>
-                        </div>
-                        <div class="stat">
-                            <h4>95%</h4>
-                            <p>Success Rate</p>
-                        </div>
-                        <div class="stat">
-                            <h4>24/7</h4>
-                            <p>Support</p>
-                        </div>
-                    </div>
-
-                    <div class="about-features">
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Customized Learning Plans</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Interactive Online Classes</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Regular Progress Reports</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Flexible Scheduling</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-6 col-lg-3 reveal-child">
+          <div class="subject-card">
+            <i class="bi bi-calculator icon"></i>
+            <h3 class="h5">Mathematics</h3>
+            <p class="small mb-0">Algebra, Geometry, Calculus — building confidence in problem-solving and logical thinking.</p>
+            <ul>
+              <li>Problem Solving</li>
+              <li>Concept Building</li>
+              <li>Competitive Math</li>
+              <li>Olympiad Prep</li>
+            </ul>
+          </div>
         </div>
-    </section>
-
-    <!-- Subjects Section -->
-    <section id="subjects" class="subjects">
-        <div class="container">
-            <div class="section-header">
-                <h2>Subjects I Teach</h2>
-                <p>Master Science, Mathematics & Hindi</p>
-            </div>
-            <div class="subjects-grid">
-                <div class="subject-card">
-                    <div class="subject-icon">
-                        <i class="fas fa-flask"></i>
-                    </div>
-                    <h3>Science</h3>
-                    <p>Physics, Chemistry, Biology - Understanding through experiments and real-world applications</p>
-                    <ul class="subject-list">
-                        <li>Conceptual Clarity</li>
-                        <li>Lab Practicals</li>
-                        <li>Board Preparation</li>
-                        <li>Competitive Exams</li>
-                    </ul>
-                    <a href="#contact" class="btn-learn-more">Learn More →</a>
-                </div>
-
-                <div class="subject-card featured">
-                    <div class="badge">Most Popular</div>
-                    <div class="subject-icon">
-                        <i class="fas fa-calculator"></i>
-                    </div>
-                    <h3>Mathematics</h3>
-                    <p>Algebra, Geometry, Calculus - Building confidence in problem-solving and logical thinking</p>
-                    <ul class="subject-list">
-                        <li>Problem Solving</li>
-                        <li>Concept Building</li>
-                        <li>Competitive Math</li>
-                        <li>Olympiad Prep</li>
-                    </ul>
-                    <a href="#contact" class="btn-learn-more">Learn More →</a>
-                </div>
-
-                <div class="subject-card">
-                    <div class="subject-icon">
-                        <i class="fas fa-language"></i>
-                    </div>
-                    <h3>Hindi</h3>
-                    <p>Grammar, Literature, Composition - Developing language skills and cultural appreciation</p>
-                    <ul class="subject-list">
-                        <li>Grammar Mastery</li>
-                        <li>Literature Depth</li>
-                        <li>Writing Skills</li>
-                        <li>Fluency & Confidence</li>
-                    </ul>
-                    <a href="#contact" class="btn-learn-more">Learn More →</a>
-                </div>
-            </div>
+        <div class="col-md-6 col-lg-3 reveal-child">
+          <div class="subject-card">
+            <i class="bi bi-translate icon"></i>
+            <h3 class="h5">Hindi</h3>
+            <p class="small mb-0">Grammar, Literature, Composition — developing language skills and cultural appreciation.</p>
+            <ul>
+              <li>Grammar Mastery</li>
+              <li>Literature Depth</li>
+              <li>Writing Skills</li>
+              <li>Fluency &amp; Confidence</li>
+            </ul>
+          </div>
         </div>
-    </section>
+      </div>
 
-    <!-- Features/Why Choose Me Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Choose Me?</h2>
-                <p>What Sets My Teaching Apart</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-video"></i>
-                    </div>
-                    <h3>Live Interactive Classes</h3>
-                    <p>Real-time engagement with instant doubt-solving and interactive problem-solving sessions</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-user-check"></i>
-                    </div>
-                    <h3>One-on-One Attention</h3>
-                    <p>Personalized learning pace and customized curriculum based on individual needs</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Progress Tracking</h3>
-                    <p>Regular assessments and detailed progress reports to track improvement</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <h3>Flexible Timing</h3>
-                    <p>Choose your preferred time slot from morning to evening, 7 days a week</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3>Proven Results</h3>
-                    <p>Consistent student success with improved grades and enhanced understanding</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-headset"></i>
-                    </div>
-                    <h3>24/7 Support</h3>
-                    <p>Available for queries, doubt-solving, and guidance beyond regular classes</p>
-                </div>
-            </div>
+      <div class="hindi-spotlight row align-items-center g-4 reveal">
+        <div class="col-auto"><div class="mark" aria-hidden="true">हिं</div></div>
+        <div class="col">
+          <h3>Hindi as a second language — Priyanka's specialty</h3>
+          <p>For international, heritage and NRI students who don't speak Hindi at home, Priyanka designs a from-the-basics path: spoken Hindi first, then Devanagari script, grammar and reading — paced for absolute beginners through to confident conversational learners of any age.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Student Success Stories</h2>
-                <p>Real Reviews from Real Students</p>
-            </div>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="stars">⭐⭐⭐⭐⭐</div>
-                        <span class="verified"><i class="fas fa-check"></i> Verified</span>
-                    </div>
-                    <p class="testimonial-text">"Priyanka ma'am transformed my understanding of Mathematics. I went from failing to scoring 95%. Her teaching is clear, patient, and incredibly effective!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">AR</div>
-                        <div>
-                            <h4>Aarav Singh</h4>
-                            <p>Grade 10 | Mathematics</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="stars">⭐⭐⭐⭐⭐</div>
-                        <span class="verified"><i class="fas fa-check"></i> Verified</span>
-                    </div>
-                    <p class="testimonial-text">"Her Science classes are engaging and fun! She explains complex concepts in such a simple way. I've never understood Biology this well before!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">DM</div>
-                        <div>
-                            <h4>Diya Mehta</h4>
-                            <p>Grade 11 | Science</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="stars">⭐⭐⭐⭐⭐</div>
-                        <span class="verified"><i class="fas fa-check"></i> Verified</span>
-                    </div>
-                    <p class="testimonial-text">"I was terrified of Hindi board exams, but Priyanka ma'am's structured approach and personalized attention boosted my confidence completely. Got 92 marks!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">RK</div>
-                        <div>
-                            <h4>Rohan Kumar</h4>
-                            <p>Grade 12 | Hindi</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="stars">⭐⭐⭐⭐⭐</div>
-                        <span class="verified"><i class="fas fa-check"></i> Verified</span>
-                    </div>
-                    <p class="testimonial-text">"Best decision ever! My son's grades improved significantly in all subjects. Priyanka ma'am is not just a teacher but a mentor. Highly recommend!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">NP</div>
-                        <div>
-                            <h4>Mrs. Neha Patel</h4>
-                            <p>Parent | Multiple Subjects</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- ================= WHY CHOOSE ME ================= -->
+  <section class="section-pad" id="why">
+    <div class="container">
+      <div class="mx-auto text-center mb-5" style="max-width:640px;">
+        <p class="eyebrow justify-content-center">Why choose me?</p>
+        <h2>What sets my teaching apart</h2>
+      </div>
+      <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3 reveal-stagger">
+        <div class="col reveal-child">
+          <div class="feature-card">
+            <i class="bi bi-camera-video-fill"></i>
+            <h3 class="h6">Live Interactive Classes</h3>
+            <p class="small mb-0">Real-time engagement with instant doubt-solving and interactive problem-solving sessions.</p>
+          </div>
         </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section class="pricing">
-        <div class="container">
-            <div class="section-header">
-                <h2>Affordable & Flexible Plans</h2>
-                <p>Choose What Works Best For You</p>
-            </div>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <h3>Trial Class</h3>
-                    <p class="price"><span class="currency">₹</span>0<span class="period">/Free</span></p>
-                    <p class="price-description">No credit card required</p>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 30-minute session</li>
-                        <li><i class="fas fa-check"></i> Subject assessment</li>
-                        <li><i class="fas fa-check"></i> Learning plan discussion</li>
-                        <li><i class="fas fa-times"></i> No commitment</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-block btn-outline">Book Now</a>
-                </div>
-
-                <div class="pricing-card featured">
-                    <div class="badge-popular">Most Popular</div>
-                    <h3>Regular Classes</h3>
-                    <p class="price"><span class="currency">₹</span>500<span class="period">/hour</span></p>
-                    <p class="price-description">Flexible scheduling</p>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 1-hour sessions</li>
-                        <li><i class="fas fa-check"></i> Customized lessons</li>
-                        <li><i class="fas fa-check"></i> Study materials</li>
-                        <li><i class="fas fa-check"></i> Progress tracking</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-block btn-primary">Get Started</a>
-                </div>
-
-                <div class="pricing-card">
-                    <h3>Exam Prep</h3>
-                    <p class="price"><span class="currency">₹</span>600<span class="period">/hour</span></p>
-                    <p class="price-description">Intensive preparation</p>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Focused curriculum</li>
-                        <li><i class="fas fa-check"></i> Mock tests</li>
-                        <li><i class="fas fa-check"></i> Past papers</li>
-                        <li><i class="fas fa-check"></i> Time management</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-block btn-outline">Learn More</a>
-                </div>
-            </div>
+        <div class="col reveal-child">
+          <div class="feature-card">
+            <i class="bi bi-person-check-fill"></i>
+            <h3 class="h6">One-on-One Attention</h3>
+            <p class="small mb-0">Personalized learning pace and customized curriculum based on individual needs.</p>
+          </div>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Get Started Today</h2>
-                <p>Book Your Free Trial or Send a Message</p>
-            </div>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <a href="mailto:gyanpathshala25@gmail.com">gyanpathshala25@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>WhatsApp</h4>
-                            <a href="https://wa.me/message/X5EMI6X5DIASP1">+91-8368386971</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-globe"></i>
-                        <div>
-                            <h4>Website</h4>
-                            <p>gyanpathshala.com</p>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <form class="contact-form" id="contactForm">
-                    <input type="text" placeholder="Your Full Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <input type="tel" placeholder="Your Phone Number" required>
-                    <select required>
-                        <option value="">Select Subject</option>
-                        <option value="Science">Science</option>
-                        <option value="Mathematics">Mathematics</option>
-                        <option value="Hindi">Hindi</option>
-                        <option value="Multiple">Multiple Subjects</option>
-                    </select>
-                    <select required>
-                        <option value="">Select Grade</option>
-                        <option value="4-6">Grade 4-6</option>
-                        <option value="7-9">Grade 7-9</option>
-                        <option value="10">Grade 10</option>
-                        <option value="11-12">Grade 11-12</option>
-                    </select>
-                    <textarea placeholder="Tell me about your learning goals..." rows="4" required></textarea>
-                    <button type="submit" class="btn btn-primary btn-lg btn-block">Send Message</button>
-                </form>
-            </div>
+        <div class="col reveal-child">
+          <div class="feature-card">
+            <i class="bi bi-graph-up-arrow"></i>
+            <h3 class="h6">Progress Tracking</h3>
+            <p class="small mb-0">Regular assessments and detailed progress reports to track improvement.</p>
+          </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Gyan Pathshala</h4>
-                    <p>Professional Online Tutor | Science • Mathematics • Hindi</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#subjects">Subjects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#">One-on-One Classes</a></li>
-                        <li><a href="#">Exam Preparation</a></li>
-                        <li><a href="#">Doubt Solving</a></li>
-                        <li><a href="#">Progress Reports</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Gyan Pathshala. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
-                </div>
-            </div>
+        <div class="col reveal-child">
+          <div class="feature-card">
+            <i class="bi bi-clock-fill"></i>
+            <h3 class="h6">Flexible Timing</h3>
+            <p class="small mb-0">Choose your preferred time slot from morning to evening, 7 days a week.</p>
+          </div>
         </div>
-    </footer>
+        <div class="col reveal-child">
+          <div class="feature-card">
+            <i class="bi bi-trophy-fill"></i>
+            <h3 class="h6">Proven Results</h3>
+            <p class="small mb-0">Consistent student success with improved grades and enhanced understanding.</p>
+          </div>
+        </div>
+        <div class="col reveal-child">
+          <div class="feature-card">
+            <i class="bi bi-headset"></i>
+            <h3 class="h6">24/7 Support</h3>
+            <p class="small mb-0">Available for queries, doubt-solving, and guidance beyond regular classes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- ================= TESTIMONIALS ================= -->
+  <section class="section-pad bg-deep" id="reviews">
+    <div class="container">
+      <div class="mx-auto text-center mb-5" style="max-width:640px;">
+        <p class="eyebrow justify-content-center">Student success stories</p>
+        <h2>Real reviews from real students</h2>
+      </div>
+      <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4 reveal-stagger">
+        <div class="col reveal-child">
+          <div class="testimonial-card">
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="stars">★★★★★</span><span class="verified">Verified</span>
+            </div>
+            <p class="quote">"Priyanka ma'am transformed my understanding of Mathematics. I went from failing to scoring 95%. Her teaching is clear, patient, and incredibly effective!"</p>
+            <div class="d-flex align-items-center gap-2">
+              <div class="avatar">AR</div>
+              <div><div class="fw-semibold small">Aarav Singh</div><div class="text-muted" style="font-size:.78rem;">Grade 10 · Mathematics</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal-child">
+          <div class="testimonial-card">
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="stars">★★★★★</span><span class="verified">Verified</span>
+            </div>
+            <p class="quote">"Her Science classes are engaging and fun! She explains complex concepts in such a simple way. I've never understood Biology this well before!"</p>
+            <div class="d-flex align-items-center gap-2">
+              <div class="avatar">DM</div>
+              <div><div class="fw-semibold small">Diya Mehta</div><div class="text-muted" style="font-size:.78rem;">Grade 11 · Science</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal-child">
+          <div class="testimonial-card">
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="stars">★★★★★</span><span class="verified">Verified</span>
+            </div>
+            <p class="quote">"I was terrified of Hindi board exams, but Priyanka ma'am's structured approach and personalized attention boosted my confidence completely. Got 92 marks!"</p>
+            <div class="d-flex align-items-center gap-2">
+              <div class="avatar">RK</div>
+              <div><div class="fw-semibold small">Rohan Kumar</div><div class="text-muted" style="font-size:.78rem;">Grade 12 · Hindi</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal-child">
+          <div class="testimonial-card">
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="stars">★★★★★</span><span class="verified">Verified</span>
+            </div>
+            <p class="quote">"Best decision ever! My son's grades improved significantly in all subjects. Priyanka ma'am is not just a teacher but a mentor. Highly recommend!"</p>
+            <div class="d-flex align-items-center gap-2">
+              <div class="avatar">NP</div>
+              <div><div class="fw-semibold small">Mrs. Neha Patel</div><div class="text-muted" style="font-size:.78rem;">Parent · Multiple Subjects</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROCESS ================= -->
+  <section class="section-pad" id="process">
+    <div class="container">
+      <div class="mx-auto text-center mb-5" style="max-width:640px;">
+        <p class="eyebrow justify-content-center">How it works</p>
+        <h2>From first message to first class, in four steps</h2>
+      </div>
+      <div class="row g-4 text-center reveal-stagger">
+        <div class="col-md-3 reveal-child">
+          <div class="step-num mx-auto">1</div>
+          <h4 class="h6">Book a free trial</h4>
+          <p class="small text-muted">Message us your grade, subject and time zone.</p>
+        </div>
+        <div class="col-md-3 reveal-child">
+          <div class="step-num mx-auto">2</div>
+          <h4 class="h6">Quick assessment</h4>
+          <p class="small text-muted">Priyanka gets a sense of level and learning goals.</p>
+        </div>
+        <div class="col-md-3 reveal-child">
+          <div class="step-num mx-auto">3</div>
+          <h4 class="h6">Personalised plan</h4>
+          <p class="small text-muted">A weekly schedule is set around your curriculum.</p>
+        </div>
+        <div class="col-md-3 reveal-child">
+          <div class="step-num mx-auto">4</div>
+          <h4 class="h6">Live weekly classes</h4>
+          <p class="small text-muted">Regular classes begin, with progress shared with parents.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRICING ================= -->
+  <section class="section-pad bg-deep" id="pricing">
+    <div class="container">
+      <div class="mx-auto text-center mb-5" style="max-width:640px;">
+        <p class="eyebrow justify-content-center">Affordable &amp; flexible plans</p>
+        <h2>Choose what works best for you</h2>
+      </div>
+      <div class="row g-4 row-cols-1 row-cols-md-3 justify-content-center reveal-stagger">
+        <div class="col reveal-child">
+          <div class="price-card">
+            <h3 class="h5">Trial Class</h3>
+            <div class="amount">Free</div>
+            <p class="small text-muted mb-0">No credit card required</p>
+            <ul>
+              <li><i class="bi bi-check-lg"></i>30-minute session</li>
+              <li><i class="bi bi-check-lg"></i>Subject assessment</li>
+              <li><i class="bi bi-check-lg"></i>Learning plan discussion</li>
+              <li><i class="bi bi-check-lg"></i>No commitment</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-brand w-100">Book Now</a>
+          </div>
+        </div>
+        <div class="col reveal-child">
+          <div class="price-card featured">
+            <span class="badge-popular">Most Popular</span>
+            <h3 class="h5">Regular Classes</h3>
+            <div class="amount">₹1000<span class="fs-6 text-muted">/hour</span></div>
+            <p class="small text-muted mb-0">Flexible scheduling</p>
+            <ul>
+              <li><i class="bi bi-check-lg"></i>1-hour sessions</li>
+              <li><i class="bi bi-check-lg"></i>Customized lessons</li>
+              <li><i class="bi bi-check-lg"></i>Study materials included</li>
+              <li><i class="bi bi-check-lg"></i>Regular progress tracking</li>
+            </ul>
+            <a href="#contact" class="btn btn-brand w-100">Get Started</a>
+          </div>
+        </div>
+        <div class="col reveal-child">
+          <div class="price-card">
+            <h3 class="h5">Exam Prep</h3>
+            <div class="amount">₹1200<span class="fs-6 text-muted">/hour</span></div>
+            <p class="small text-muted mb-0">Intensive preparation</p>
+            <ul>
+              <li><i class="bi bi-check-lg"></i>Focused curriculum</li>
+              <li><i class="bi bi-check-lg"></i>Mock tests</li>
+              <li><i class="bi bi-check-lg"></i>Past papers</li>
+              <li><i class="bi bi-check-lg"></i>Time management coaching</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-brand w-100">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <p class="text-center small text-muted mt-4 mb-0">Rates shown in Indian Rupees (₹). International families are quoted an equivalent amount in their local currency on request; exchange rates fluctuate, so the final figure is confirmed before booking.</p>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="section-pad" id="faq">
+    <div class="container">
+      <div class="mx-auto text-center mb-5" style="max-width:640px;">
+        <p class="eyebrow justify-content-center">Frequently asked questions</p>
+        <h2>Everything international parents ask us</h2>
+      </div>
+      <div class="accordion mx-auto" id="faqAccordion" style="max-width:840px;">
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1">What is Gyan Pathshala?</button></h3>
+          <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Gyan Pathshala is an online tuition service led by Priyanka Nakoti, a tutor with over 10 years of experience, teaching international and NRI students in Grades 4 to 12 in English, Maths, Science and Hindi, including Hindi as a second language.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">Which grades and subjects does Gyan Pathshala cover?</button></h3>
+          <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">We teach Grades 4 through 12 in English, Mathematics, Science and Hindi, tailored to the student's home curriculum, including CBSE, ICSE, IGCSE and IB.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">Can my child learn Hindi even if they've never studied it before?</button></h3>
+          <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Yes — this is Priyanka's specialty. She teaches Hindi as a second or foreign language from the very basics: spoken Hindi first, then the Devanagari script, grammar and reading, at a pace suited to complete beginners of any age.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4">How much does online tuition cost?</button></h3>
+          <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Regular classes start at ₹1000 per hour, with exam-prep sessions at ₹1200 per hour. A free 30-minute trial class is available before you commit.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f5">We live outside India — can classes work with our time zone?</button></h3>
+          <div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Yes. We teach students across different time zones, seven days a week, and schedule live classes at a time that works for your family's location.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f6">What platform do you use for classes?</button></h3>
+          <div id="f6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Classes are held over live video call with a digital whiteboard and shared study material for an interactive session.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f7">How do I book a free trial class?</button></h3>
+          <div id="f7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Message us on WhatsApp at +91-8368386971, email gyanpathshala25@gmail.com, or fill in the contact form below with your child's grade, subject and preferred time zone.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f8">Do you offer group classes or only one-on-one?</button></h3>
+          <div id="f8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Both are available. Most families choose one-on-one classes for focused attention, though small-group sessions can be arranged for siblings or friends learning together.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f9">How long is each class?</button></h3>
+          <div id="f9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Regular classes run for 60 minutes. Shorter or longer sessions can be arranged for younger students or intensive exam-prep blocks.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f10">Can I reschedule or cancel a class?</button></h3>
+          <div id="f10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Yes. Classes can be rescheduled with at least 12 hours' notice by messaging on WhatsApp or email, at no extra charge.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f11">Do you offer discounts for siblings or multiple subjects?</button></h3>
+          <div id="f11" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Yes, families enrolling more than one child, or booking multiple subjects for the same child, can request a custom package rate.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f12">Are weekend classes available?</button></h3>
+          <div id="f12" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Yes, classes are available seven days a week, including weekends, to suit international school and work schedules.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f13">Is there a minimum commitment period?</button></h3>
+          <div id="f13" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">No. Classes are billed hourly with no long-term lock-in, so families can continue on a week-to-week basis after the free trial.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section-pad bg-ink" id="contact">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5 reveal">
+          <p class="eyebrow">Get started today</p>
+          <h2>Book your free trial or send a message</h2>
+          <p style="color:rgba(251,243,226,.82);">Tell us your child's grade, subject and time zone, and we'll set up a live introductory session with Priyanka within a few days.</p>
+
+          <div class="mt-4">
+            <div class="contact-info-item">
+              <i class="bi bi-envelope-fill"></i>
+              <div><div class="fw-semibold small text-uppercase" style="letter-spacing:.06em;color:var(--gold-light);">Email</div><a href="mailto:gyanpathshala25@gmail.com">gyanpathshala25@gmail.com</a></div>
+            </div>
+            <div class="contact-info-item">
+              <i class="bi bi-whatsapp"></i>
+              <div><div class="fw-semibold small text-uppercase" style="letter-spacing:.06em;color:var(--gold-light);">WhatsApp / Call</div><a href="https://wa.me/918368386971" target="_blank" rel="noopener">+91-8368386971</a></div>
+            </div>
+            <div class="contact-info-item">
+              <i class="bi bi-globe"></i>
+              <div><div class="fw-semibold small text-uppercase" style="letter-spacing:.06em;color:var(--gold-light);">Website</div><a href="https://gyanpathshala.com/" target="_blank" rel="noopener">gyanpathshala.com</a></div>
+            </div>
+          </div>
+
+          <div class="social-row mt-4">
+            <a href="https://www.facebook.com/people/Gyanpathshala/61574269430908" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/918368386971" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="mailto:gyanpathshala25@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+            <a href="tel:+918368386971" aria-label="Call"><i class="bi bi-telephone-fill"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-7 reveal">
+          <div class="contact-form-card">
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="cf-name" class="form-label small fw-semibold">Your name</label>
+                  <input type="text" class="form-control" id="cf-name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="cf-email" class="form-label small fw-semibold">Email</label>
+                  <input type="email" class="form-control" id="cf-email" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="cf-subject" class="form-label small fw-semibold">Select subject</label>
+                  <select class="form-select" id="cf-subject" required>
+                    <option value="" selected disabled>Choose…</option>
+                    <option>English</option>
+                    <option>Science</option>
+                    <option>Mathematics</option>
+                    <option>Hindi</option>
+                    <option>Hindi as a Second Language</option>
+                    <option>Multiple Subjects</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="cf-grade" class="form-label small fw-semibold">Select grade</label>
+                  <select class="form-select" id="cf-grade" required>
+                    <option value="" selected disabled>Choose…</option>
+                    <option>Grade 4-6</option>
+                    <option>Grade 7-9</option>
+                    <option>Grade 10</option>
+                    <option>Grade 11-12</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="cf-timezone" class="form-label small fw-semibold">Preferred time zone</label>
+                  <select class="form-select" id="cf-timezone" required>
+                    <option value="" selected disabled>Choose…</option>
+                    <option>GMT-8 · Pacific Time (US/Canada)</option>
+                    <option>GMT-7 · Mountain Time (US/Canada)</option>
+                    <option>GMT-6 · Central Time (US/Canada)</option>
+                    <option>GMT-5 · Eastern Time (US/Canada)</option>
+                    <option>GMT+0 · London / UK</option>
+                    <option>GMT+1 · Central Europe</option>
+                    <option>GMT+3 · East Africa / Riyadh</option>
+                    <option>GMT+4 · Dubai / UAE</option>
+                    <option>GMT+5:30 · India (IST)</option>
+                    <option>GMT+8 · Singapore / Malaysia</option>
+                    <option>GMT+10 · Sydney / Australia</option>
+                    <option>Other (please mention in message)</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="cf-message" class="form-label small fw-semibold">Message</label>
+                  <textarea class="form-control" id="cf-message" rows="4" placeholder="Tell us about your child's learning goals"></textarea>
+                </div>
+                <div class="col-12 d-flex flex-wrap gap-3 pt-2">
+                  <button type="submit" class="btn btn-brand btn-lg px-4">Send Message</button>
+                  <a href="https://wa.me/918368386971" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg px-4"><i class="bi bi-whatsapp me-1"></i>Chat on WhatsApp</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="fab-stack">
+  <a href="https://wa.me/918368386971" target="_blank" rel="noopener" class="fab fab-wa" aria-label="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+  <button class="fab fab-top" id="backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row g-4 pb-4 mb-4" style="border-bottom:1px solid rgba(251,243,226,.12);">
+      <div class="col-lg-5">
+        <div class="foot-brand"><img src="logo.png" alt="Gyan Pathshala"><span>Gyan Pathshala</span></div>
+        <p style="max-width:34ch;">Professional online tutor for international and NRI students — English, Science, Mathematics and Hindi, including Hindi as a second language.</p>
+        <div class="social-row mt-3">
+          <a href="https://www.facebook.com/people/Gyanpathshala/61574269430908" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://wa.me/918368386971" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <a href="mailto:gyanpathshala25@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#teacher">About</a></li>
+          <li><a href="#subjects">Subjects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-4">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#subjects">One-on-One Classes</a></li>
+          <li><a href="#pricing">Exam Preparation</a></li>
+          <li><a href="#faq">Doubt Solving</a></li>
+          <li><a href="#teacher">Progress Reports</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex flex-wrap justify-content-between small" style="opacity:.65;">
+      <span>© 2026 Gyan Pathshala. All rights reserved.</span>
+      <span>Learn. Lead. Liberate.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  /* Scroll progress bar + navbar shrink + back-to-top visibility */
+  const progressBar = document.getElementById('scrollProgress');
+  const navbarEl = document.querySelector('.navbar');
+  const backToTop = document.getElementById('backToTop');
+  window.addEventListener('scroll', function(){
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    progressBar.style.width = (docHeight > 0 ? (scrollTop / docHeight) * 100 : 0) + '%';
+    navbarEl.classList.toggle('is-scrolled', scrollTop > 30);
+    backToTop.classList.toggle('show', scrollTop > 500);
+  }, { passive: true });
+  backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  /* Reveal-on-scroll using IntersectionObserver */
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal, .reveal-stagger').forEach(el => revealObserver.observe(el));
+
+  /* Animated number counters */
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const el = entry.target;
+      const target = parseInt(el.getAttribute('data-count'), 10);
+      const duration = 1400;
+      const start = performance.now();
+      function tick(now){
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        el.textContent = Math.round(eased * target);
+        if (progress < 1) requestAnimationFrame(tick);
+        else el.textContent = target;
+      }
+      requestAnimationFrame(tick);
+      counterObserver.unobserve(el);
+    });
+  }, { threshold: 0.5 });
+  document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
+
+  document.getElementById('contactForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const name = document.getElementById('cf-name').value;
+    const email = document.getElementById('cf-email').value;
+    const subject = document.getElementById('cf-subject').value;
+    const grade = document.getElementById('cf-grade').value;
+    const timezone = document.getElementById('cf-timezone').value;
+    const message = document.getElementById('cf-message').value;
+    const body = `Name: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0AGrade: ${grade}%0ATime Zone: ${timezone}%0AMessage: ${message}`;
+    window.location.href = `mailto:gyanpathshala25@gmail.com?subject=Free Trial Enquiry - ${subject}&body=${body}`;
+  });
+</script>
 </body>
 </html>
