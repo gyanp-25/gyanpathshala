@@ -54,13 +54,9 @@
   "email": "gyanpathshala25@gmail.com",
   "telephone": "+91-8368386971",
   "sameAs": ["https://www.facebook.com/gyanpathshala25/"],
-  "employee": {
-    "@type": "Person",
-    "name": "Priyanka Nakoti",
-    "jobTitle": "Online Tutor & Hindi Language Specialist",
-    "knowsLanguage": ["English", "Hindi"],
-    "worksFor": { "@type": "EducationalOrganization", "name": "Gyan Pathshala" }
-  },
+  "@id": "https://gyanpathshala.com/#organization",
+  "founder": { "@id": "https://gyanpathshala.com/#priyanka" },
+  "employee": { "@id": "https://gyanpathshala.com/#priyanka" },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Online Tuition Subjects",
@@ -71,12 +67,26 @@
       { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Hindi (First Language), Grades 1-12", "provider": "Gyan Pathshala" } },
       { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Hindi as a Second / Foreign Language, All Ages", "provider": "Gyan Pathshala" } }
     ]
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "4"
   }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://gyanpathshala.com/#priyanka",
+  "name": "Priyanka Nakoti",
+  "url": "https://gyanpathshala.com/#teacher",
+  "image": "https://gyanpathshala.com/priyanka.jpg",
+  "jobTitle": "Online Tutor & Hindi Language Specialist",
+  "description": "Online educator with over 10 years of teaching experience and 800+ students taught, teaching English, Maths, Science and Hindi to international and NRI students in Grades 1 to 12, and specializing in Hindi as a second language.",
+  "knowsLanguage": ["English", "Hindi"],
+  "knowsAbout": ["English", "Mathematics", "Science", "Hindi", "Hindi as a second language"],
+  "worksFor": { "@id": "https://gyanpathshala.com/#organization" },
+  "sameAs": [
+    "https://tutorwyz.com/about/",
+    "https://www.facebook.com/gyanpathshala25/"
+  ]
 }
 </script>
 <script type="application/ld+json">
@@ -137,6 +147,11 @@
   .btn-outline-brand:hover{background:var(--ink);color:var(--paper);}
   .btn-whatsapp{background:#25D366;color:#fff;font-weight:600;}
   .btn-whatsapp:hover{background:#1ebe57;color:#fff;}
+
+  /* Top banner */
+  .top-banner{background:var(--ink);color:var(--paper);font-size:.84rem;text-align:center;padding:8px 16px;line-height:1.4;}
+  .top-banner a{color:var(--gold-light);font-weight:600;text-decoration:none;}
+  .top-banner a:hover, .top-banner a:focus{text-decoration:underline;}
 
   /* Navbar */
   .navbar{background:rgba(251,243,226,.94)!important;backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
@@ -290,6 +305,11 @@
 
 <div class="scroll-progress" id="scrollProgress"></div>
 
+<!-- ================= TOP BANNER ================= -->
+<div class="top-banner">
+  <a href="https://tutorwyz.com/" target="_blank" rel="noopener">Families outside India: Priyanka also teaches through TutorWyz, with monthly packages in USD, AED and GBP →</a>
+</div>
+
 <!-- ================= NAVBAR ================= -->
 <nav class="navbar navbar-expand-lg sticky-top py-2">
   <div class="container">
@@ -379,11 +399,10 @@
   <!-- ================= STATS ================= -->
   <section class="py-4 bg-deep border-top border-bottom" style="border-color:var(--line)!important;">
     <div class="container">
-      <div class="row g-3 row-cols-2 row-cols-md-4 reveal-stagger">
-        <div class="col reveal-child"><div class="stat-card"><div class="num"><span data-count="800">0</span>+</div><div class="lbl">Students Taught</div></div></div>
-        <div class="col reveal-child"><div class="stat-card"><div class="num"><span data-count="10">0</span>+</div><div class="lbl">Years Experience</div></div></div>
-        <div class="col reveal-child"><div class="stat-card"><div class="num"><span data-count="95">0</span>%</div><div class="lbl">Success Rate</div></div></div>
-        <div class="col reveal-child"><div class="stat-card"><div class="num">24/7</div><div class="lbl">Support</div></div></div>
+      <div class="row g-3 row-cols-1 row-cols-sm-3 reveal-stagger">
+        <div class="col reveal-child"><div class="stat-card"><div class="num"><span data-count="800">800</span>+</div><div class="lbl">Students Taught</div></div></div>
+        <div class="col reveal-child"><div class="stat-card"><div class="num"><span data-count="10">10</span>+</div><div class="lbl">Years Experience</div></div></div>
+        <div class="col reveal-child"><div class="stat-card"><div class="num">7 Days</div><div class="lbl">A Week Support</div></div></div>
       </div>
     </div>
   </section>
@@ -410,6 +429,7 @@
             <li><i class="bi bi-check-circle-fill"></i>Lessons adapted to CBSE, ICSE, IGCSE and IB syllabi</li>
             <li><i class="bi bi-check-circle-fill"></i>Regular progress reports shared with parents</li>
           </ul>
+          <p class="small text-muted mt-3 mb-0">For international invoicing and packages, Priyanka also teaches through <a href="https://tutorwyz.com/" target="_blank" rel="noopener" class="fw-semibold" style="color:var(--sindoor);">TutorWyz →</a></p>
         </div>
       </div>
     </div>
@@ -536,7 +556,7 @@
         <div class="col reveal-child">
           <div class="feature-card">
             <i class="bi bi-headset"></i>
-            <h3 class="h6">24/7 Support</h3>
+            <h3 class="h6">Support 7 Days a Week</h3>
             <p class="small mb-0">Available for queries, doubt-solving, and guidance beyond regular classes.</p>
           </div>
         </div>
@@ -555,7 +575,7 @@
         <div class="col reveal-child">
           <div class="testimonial-card">
             <div class="d-flex justify-content-between align-items-center">
-              <span class="stars">★★★★★</span><span class="verified">Verified</span>
+              <span class="stars">★★★★★</span>
             </div>
             <p class="quote">"Priyanka ma'am transformed my understanding of Mathematics. I went from failing to scoring 95%. Her teaching is clear, patient, and incredibly effective!"</p>
             <div class="d-flex align-items-center gap-2">
@@ -567,7 +587,7 @@
         <div class="col reveal-child">
           <div class="testimonial-card">
             <div class="d-flex justify-content-between align-items-center">
-              <span class="stars">★★★★★</span><span class="verified">Verified</span>
+              <span class="stars">★★★★★</span>
             </div>
             <p class="quote">"Her Science classes are engaging and fun! She explains complex concepts in such a simple way. I've never understood Biology this well before!"</p>
             <div class="d-flex align-items-center gap-2">
@@ -579,7 +599,7 @@
         <div class="col reveal-child">
           <div class="testimonial-card">
             <div class="d-flex justify-content-between align-items-center">
-              <span class="stars">★★★★★</span><span class="verified">Verified</span>
+              <span class="stars">★★★★★</span>
             </div>
             <p class="quote">"I was terrified of Hindi board exams, but Priyanka ma'am's structured approach and personalized attention boosted my confidence completely. Got 92 marks!"</p>
             <div class="d-flex align-items-center gap-2">
@@ -591,7 +611,7 @@
         <div class="col reveal-child">
           <div class="testimonial-card">
             <div class="d-flex justify-content-between align-items-center">
-              <span class="stars">★★★★★</span><span class="verified">Verified</span>
+              <span class="stars">★★★★★</span>
             </div>
             <p class="quote">"Best decision ever! My son's grades improved significantly in all subjects. Priyanka ma'am is not just a teacher but a mentor. Highly recommend!"</p>
             <div class="d-flex align-items-center gap-2">
@@ -688,7 +708,7 @@
           </div>
         </div>
       </div>
-      <p class="text-center small text-muted mt-4 mb-0">Rates shown in Indian Rupees (₹). International families are quoted an equivalent amount in their local currency on request; exchange rates fluctuate, so the final figure is confirmed before booking.</p>
+      <p class="text-center small text-muted mt-4 mb-0">Rates shown in Indian Rupees (₹). Prefer to pay in USD, AED or GBP with a proper invoice? <a href="https://tutorwyz.com/" target="_blank" rel="noopener" class="fw-semibold" style="color:var(--sindoor);">Book the same classes with Priyanka through TutorWyz →</a></p>
     </div>
   </section>
 
@@ -798,7 +818,7 @@
             </div>
             <div class="contact-info-item">
               <i class="bi bi-whatsapp"></i>
-              <div><div class="fw-semibold small text-uppercase" style="letter-spacing:.06em;color:var(--gold-light);">WhatsApp / Call</div><a href="https://wa.me/918368386971" target="_blank" rel="noopener">+91-8368386971</a></div>
+              <div><div class="fw-semibold small text-uppercase" style="letter-spacing:.06em;color:var(--gold-light);">WhatsApp / Call</div><a href="https://wa.me/918368386971?text=Hi%20Gyan%20Pathshala!%20I%20found%20you%20on%20gyanpathshala.com%20and%20would%20like%20to%20book%20a%20free%20trial%20class." target="_blank" rel="noopener">+91-8368386971</a></div>
             </div>
             <div class="contact-info-item">
               <i class="bi bi-globe"></i>
@@ -808,7 +828,7 @@
 
           <div class="social-row mt-4">
             <a href="https://www.facebook.com/gyanpathshala25/" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="https://wa.me/918368386971" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://wa.me/918368386971?text=Hi%20Gyan%20Pathshala!%20I%20found%20you%20on%20gyanpathshala.com%20and%20would%20like%20to%20book%20a%20free%20trial%20class." target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
             <a href="mailto:gyanpathshala25@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
             <a href="tel:+918368386971" aria-label="Call"><i class="bi bi-telephone-fill"></i></a>
           </div>
@@ -866,13 +886,31 @@
                     <option>Other (please mention in message)</option>
                   </select>
                 </div>
+                <div class="col-md-6">
+                  <label for="cf-source" class="form-label small fw-semibold">How did you find us?</label>
+                  <select class="form-select" id="cf-source">
+                    <option value="" selected>Choose…</option>
+                    <option>Google search</option>
+                    <option>Bing or another search engine</option>
+                    <option data-ai>ChatGPT</option>
+                    <option data-ai>Gemini</option>
+                    <option data-ai>Another AI assistant</option>
+                    <option>Facebook</option>
+                    <option>Friend or family</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="col-12 d-none" id="cf-prompt-wrap">
+                  <label for="cf-prompt" class="form-label small fw-semibold">If you used ChatGPT or Gemini, what did you type?</label>
+                  <textarea class="form-control" id="cf-prompt" rows="2" placeholder="e.g. online Hindi tutor for my 8-year-old in Dubai"></textarea>
+                </div>
                 <div class="col-12">
                   <label for="cf-message" class="form-label small fw-semibold">Message</label>
                   <textarea class="form-control" id="cf-message" rows="4" placeholder="Tell us about your child's learning goals"></textarea>
                 </div>
                 <div class="col-12 d-flex flex-wrap gap-3 pt-2">
                   <button type="submit" class="btn btn-brand btn-lg px-4">Send Message</button>
-                  <a href="https://wa.me/918368386971" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg px-4"><i class="bi bi-whatsapp me-1"></i>Chat on WhatsApp</a>
+                  <a href="https://wa.me/918368386971?text=Hi%20Gyan%20Pathshala!%20I%20found%20you%20on%20gyanpathshala.com%20and%20would%20like%20to%20book%20a%20free%20trial%20class." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg px-4"><i class="bi bi-whatsapp me-1"></i>Chat on WhatsApp</a>
                 </div>
               </div>
             </form>
@@ -884,7 +922,7 @@
 </main>
 
 <div class="fab-stack">
-  <a href="https://wa.me/918368386971" target="_blank" rel="noopener" class="fab fab-wa" aria-label="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+  <a href="https://wa.me/918368386971?text=Hi%20Gyan%20Pathshala!%20I%20found%20you%20on%20gyanpathshala.com%20and%20would%20like%20to%20book%20a%20free%20trial%20class." target="_blank" rel="noopener" class="fab fab-wa" aria-label="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
   <button class="fab fab-top" id="backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
 </div>
 
@@ -896,7 +934,7 @@
         <p style="max-width:34ch;">Professional online tutor for international and NRI students — English, Science, Mathematics and Hindi, including Hindi as a second language.</p>
         <div class="social-row mt-3">
           <a href="https://www.facebook.com/gyanpathshala25" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-          <a href="https://wa.me/918368386971" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://wa.me/918368386971?text=Hi%20Gyan%20Pathshala!%20I%20found%20you%20on%20gyanpathshala.com%20and%20would%20like%20to%20book%20a%20free%20trial%20class." target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
           <a href="mailto:gyanpathshala25@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
         </div>
       </div>
@@ -923,6 +961,7 @@
       <span>© 2026 Gyan Pathshala. All rights reserved.</span>
       <span>Learn. Lead. Liberate.</span>
     </div>
+    <p class="small mt-2 mb-0" style="opacity:.65;">Gyan Pathshala is Priyanka Nakoti’s personal tutoring practice.</p>
   </div>
 </footer>
 
@@ -973,16 +1012,31 @@
   }, { threshold: 0.5 });
   document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
 
+  const sourceSel = document.getElementById('cf-source');
+  const promptWrap = document.getElementById('cf-prompt-wrap');
+  sourceSel.addEventListener('change', function(){
+    const isAI = this.selectedOptions[0].hasAttribute('data-ai');
+    promptWrap.classList.toggle('d-none', !isAI);
+    if (!isAI) document.getElementById('cf-prompt').value = '';
+  });
+
   document.getElementById('contactForm').addEventListener('submit', function(e){
     e.preventDefault();
-    const name = document.getElementById('cf-name').value;
-    const email = document.getElementById('cf-email').value;
-    const subject = document.getElementById('cf-subject').value;
-    const grade = document.getElementById('cf-grade').value;
-    const timezone = document.getElementById('cf-timezone').value;
-    const message = document.getElementById('cf-message').value;
-    const body = `Name: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0AGrade: ${grade}%0ATime Zone: ${timezone}%0AMessage: ${message}`;
-    window.location.href = `mailto:gyanpathshala25@gmail.com?subject=Free Trial Enquiry - ${subject}&body=${body}`;
+    const val = id => document.getElementById(id).value.trim();
+    const subject = val('cf-subject');
+    const lines = [
+      `Name: ${val('cf-name')}`,
+      `Email: ${val('cf-email')}`,
+      `Subject: ${subject}`,
+      `Grade: ${val('cf-grade')}`,
+      `Time Zone: ${val('cf-timezone')}`,
+      `Found us via: ${val('cf-source') || 'Not specified'}`
+    ];
+    if (val('cf-prompt')) lines.push(`AI prompt used: ${val('cf-prompt')}`);
+    lines.push(`Message: ${val('cf-message')}`);
+    window.location.href = 'mailto:gyanpathshala25@gmail.com'
+      + '?subject=' + encodeURIComponent(`Free Trial Enquiry - ${subject}`)
+      + '&body=' + encodeURIComponent(lines.join('\n'));
   });
 </script>
 </body>
